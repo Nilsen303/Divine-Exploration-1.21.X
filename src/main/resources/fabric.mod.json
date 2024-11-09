@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "divineexploration",
+	"version": "0.1",
+	"name": "Divine Exploration",
+	"description": "This mod aims to spice up Minecraft exploration by adding new tools, ores, armor, structures and much more!",
+	"authors": [
+		"Nilsen"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/divineexploration/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nilsen.divineexploration.DivineExploration"
+		],
+		"fabric-datagen": [
+			"com.nilsen.divineexploration.DivineExplorationDataGenerator"
+		],
+		"client": [
+			"com.nilsen.divineexploration.DivineExplorationClient"
+		]
+	},
+	"mixins": [
+		"divineexploration.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
