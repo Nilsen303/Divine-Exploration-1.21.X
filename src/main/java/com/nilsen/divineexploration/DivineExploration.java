@@ -1,5 +1,6 @@
 package com.nilsen.divineexploration;
 
+import com.nilsen.divineexploration.block.ModBlocks;
 import com.nilsen.divineexploration.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class DivineExploration implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("loaded fabric mod" + MOD_ID);
 	}

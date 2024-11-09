@@ -1,4 +1,7 @@
 {
   "item.divineexploration.rose_quartz_ingot": "Rose Quartz Ingot",
-  "item.divineexploration.rose_quartz": "Rose Quartz"
+  "item.divineexploration.rose_quartz": "Rose Quartz",
+
+  "block.divineexploration.rose_quartz_block": "Rose quartz block",
+  "block.divineexploration.raw_rose_quartz_block": "Raw rose quartz block"
 }
