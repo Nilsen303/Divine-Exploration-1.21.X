@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 1,
+  "ingredient": {
+    "item": "divineexploration:rose_quartz"
+  },
+  "result": {
+    "id": "divineexploration:rose_quartz_ingot"
+  }
+}

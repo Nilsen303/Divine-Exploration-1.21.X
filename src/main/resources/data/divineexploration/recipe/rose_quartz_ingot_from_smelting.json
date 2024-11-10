@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "divineexploration:rose_quartz"
+  },
+  "result": {
+    "id": "divineexploration:rose_quartz_ingot"
+  }
+}

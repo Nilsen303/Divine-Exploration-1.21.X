@@ -4,6 +4,7 @@ import com.nilsen.divineexploration.DivineExploration;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,6 +13,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -24,9 +26,17 @@ public class ModBlocks {
             ));
     public static final Block RAW_ROSE_QUARTZ_BLOCK = registerBlock("raw_rose_quartz_block",
             new Block(AbstractBlock.Settings.create()
-                    .strength(5f)
+                    .strength(3f)
                     .requiresTool()
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .mapColor(MapColor.PINK)
+            ));
+    public static final Block ROSE_QUARTZ_ORE = registerBlock("rose_quartz_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7),
+                    AbstractBlock.Settings.create()
+                    .strength(3f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.NETHERRACK)
                     .mapColor(MapColor.PINK)
             ));
 
@@ -46,6 +56,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.ROSE_QUARTZ_BLOCK);
             entries.add(ModBlocks.RAW_ROSE_QUARTZ_BLOCK);
+            entries.add(ModBlocks.ROSE_QUARTZ_ORE);
         });
     }
 }

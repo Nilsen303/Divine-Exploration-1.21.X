@@ -12,6 +12,8 @@ public class ModItems {
 
     public static final Item ROSE_QUARTZ_INGOT = registerItem("rose_quartz_ingot", new Item(new Item.Settings()));
     public static final Item ROSE_QUARTZ = registerItem("rose_quartz", new Item(new Item.Settings()));
+    public static final Item FEATHER_OF_PURITY = registerItem("feather_of_purity", new Item(new Item.Settings()));
+    public static final Item SHARD_OF_LIGHT = registerItem("shard_of_light", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -24,6 +26,8 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(ROSE_QUARTZ_INGOT);
             entries.add(ROSE_QUARTZ);
+            entries.add(FEATHER_OF_PURITY);
+            entries.add(SHARD_OF_LIGHT);
         });
     }
 }

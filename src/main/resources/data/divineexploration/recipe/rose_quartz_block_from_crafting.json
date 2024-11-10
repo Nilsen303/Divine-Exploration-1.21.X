@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catregory": "building",
+  "key": {
+    "#": {
+      "item": "divineexploration:rose_quartz_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "divineexploration:rose_quartz_block"
+  }
+}

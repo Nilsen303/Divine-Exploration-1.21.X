@@ -23,6 +23,10 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.ROSE_QUARTZ_BLOCK);
                         entries.add(ModBlocks.RAW_ROSE_QUARTZ_BLOCK);
+                        entries.add(ModBlocks.ROSE_QUARTZ_ORE);
+
+                        entries.add(ModItems.FEATHER_OF_PURITY);
+                        entries.add(ModItems.SHARD_OF_LIGHT);
                     }).build());
 
     public static void registerItemGroups() {

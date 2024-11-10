@@ -1,9 +1,12 @@
 {
   "item.divineexploration.rose_quartz_ingot": "Rose Quartz Ingot",
   "item.divineexploration.rose_quartz": "Rose Quartz",
+  "item.divineexploration.feather_of_purity": "Feather of Purity",
+  "item.divineexploration.shard_of_light": "Shard of Light",
 
   "block.divineexploration.rose_quartz_block": "Rose quartz block",
   "block.divineexploration.raw_rose_quartz_block": "Raw rose quartz block",
+  "block.divineexploration.rose_quartz_ore": "Rose quartz ore",
 
   "itemgroup.divineexploration.divine_exploration_item_group": "Divine Exploration"
 }

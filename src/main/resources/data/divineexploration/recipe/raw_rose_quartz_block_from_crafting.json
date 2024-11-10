@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catregory": "building",
+  "key": {
+    "#": {
+      "item": "divineexploration:rose_quartz"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "divineexploration:raw_rose_quartz_block"
+  }
+}
